@@ -1,1 +1,51 @@
+Fundamental library for scientific computing
+!pip install numpy
+import numpy as np
 
+## 1-D array in numpy
+arr1 = np.array([1,2,3,4,5])
+arr2 = np.reshape(1,5)
+np.arange (0,10,2).reshape(5,2)
+np.ones(3,4)
+Indentity matrixes = np.eye(3)
+arr.ndim
+arr.dtype
+
+##Numpy Vectorised Operation
+arr1 = np.array([1,2,3,4,5)]
+arr2 = np.array([10,20,30,40,50])
+arr1+arr2
+arr1-arr2
+arr1*arr2
+arr1/arr2
+
+##Universal Functions
+np.sqrt(arr)
+np.exp(arr)
+np.sin(arr)
+np.log(arr)
+
+##Array Slicing and Indexing
+arr[0][0]
+arr[1: , 2:]
+arr[0:2, 2:]
+arr[1:,1:3]
+
+##Modify Array Elements
+arr[0,0] = 100
+arr[1: ] = 100
+
+##Statical Concept : Normalization
+mean = np.mean(data)
+std_dev = np.std(data)
+normalised_data = (data - mean)/std_dev   (normalisation : mean = 0, std_dev= 1)
+np.mean(data)
+np.median(data)
+np.std(data)
+np.var(data)
+
+##Logical Operations in NumPy
+data = np.array([1,2,3,4,5.....10])
+data>5 
+data[data>5]
+data[(data>5) & (data <8)]
