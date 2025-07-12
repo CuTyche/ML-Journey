@@ -1,1 +1,19 @@
+Pandas is a powerful data manipulation library in python, widely used for data analysis and cleaning.
+-----> Series (1D dataset)
+-----> DataFrame ( 2D dataset)
 
+import pandas as pd
+## Series
+data = [1,2,3,4,5]
+series = pd.Series(data)
+print("series :\n", series)
+
+## DataFrame
+creating from dictionary of list
+creatingfrom list of dictionary
+accessing data from dataframe
+accessing a specified element
+using inat
+
+##Data Manipulation usin Dataframes
+adding, deleting, renaming
