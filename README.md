@@ -125,5 +125,5 @@ Diabetes Prediction	Pima Indian Diabetes
 
 ---
 
-## 🌈 Repo Structure
+
 
