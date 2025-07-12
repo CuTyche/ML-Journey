@@ -1,1 +1,32 @@
+df = pd.read_csv('data.csv')
+df.head(5)
+df.tail(5)
+df.describe()
+df.dtpes()
+
+## Handling missing values
+df.isnull()
+df.isnull().any(axis = 1)
+df_filled = df.fillna(0)
+
+##Filling missin values with the mean of the column
+df['Sales_fillNa'] = df['Sales'].fillna(df['Sales].mean()]
+
+
+##Renaming Columns 
+df = df.rename(columns= {'Data':'Sales Data'}
+
+##Change DataTypes
+df[Value_New] = df['Value'].astype(float)
+
+##Data Agrregating and Grouping
+grouped_mean = df.groupby['Product']['[Value'].mean()
+
+Grouped_sum = df.groupby(['Product','Region']['Value'].sum()
+
+# Aggregating Multiple Functions
+
+# Merging and Joining DataFrames
+
+# Dataframes merge on colums
 
