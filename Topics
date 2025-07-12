@@ -1,0 +1,43 @@
+All the topics i might need to cover in this Journey
+1) Data Analysis: NumPy, Pandas, Matplotlib, Seaborn, SQLite
+2) Logging in Python
+3) Multithreading and multiprocessing
+4) Memory Management
+5) Flask Framework
+6) StreamLit Framework
+7) Statisitcs
+8) Probability
+9) Probability Distribution Form
+10) Inferential framework
+11) Feature Engineering
+12) Machine Learning
+-Linear Regression
+-Ridge
+-Lasso
+-ElastiNet ML algorithms
+-Logistic
+-SVM
+-Naive Bayes Theorem
+-KNNs
+-Decision Tree
+-Random Forest
+-AdaBoost
+-Gradient Boosting
+-XgBoost
+13) Unsupervised Learning:
+- PCA
+- K means clustering
+- Heiracrchal
+- DBSCAN
+- Silhoutte
+- Anamoly detection
+14) NLP
+15) Deep Learning
+- ANNs
+- Simple RNNs
+- LSTM
+- GRU RNNs
+16) Bidirectojnal RNNs
+17) Encoder Decoder Sequence
+18) Attention Mechanism
+19) Transformers
