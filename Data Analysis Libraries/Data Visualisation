@@ -1,1 +1,18 @@
+##Matplotlib
+https://colab.research.google.com/drive/1fjHzDo9Lky7Hp9k334S0sJrdDM_X8dcL?usp=sharing
 
+-used for data visualisation
+-enables creation of static, animated and interactive visualisation of data
+
+!pip install matplotlib
+import matplotlib.pyplot as plt
+
+-line plot
+-Multiplots
+-BarPlots
+-Histogram
+-ScatterPlot
+-Piecharts
+
+##Seaborn
+Seaborn is a statistical data visualization library. It integrates tightly with pandas DataFrames and makes it super easy to create beautiful plots with built-in themes, palettes, and statistical tools.
