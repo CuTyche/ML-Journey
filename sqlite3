@@ -1,0 +1,47 @@
+import sqlite3
+con = sqlite3.connect('example.db')
+cursor= con.cursor()
+
+cursor.excute('''
+  CREATE TABLE IF NOT EXISTS Employee(
+    ID INTEGER PRIMARY KEY,
+    NAME TEXT NOT NULL,
+    AGE INTEGER,
+    DEPARTMENT text,
+  '''
+  )
+cursor.execute('''
+  SELECT *FROM Employees
+  '''
+  )
+  
+cursor.excute('''
+  INSERT INTO Employees (name, age, department)
+  values("Tyche",22,"Data Scientist"
+  '''
+  )
+
+cursor.excute('''
+  SELECT*FROM Employees
+  '''
+  )
+  rows = cursor.fetchall()
+  for row in rows:
+  print(row)
+
+  cursor.excute('''
+  UPDATE Employees
+  set age = 21
+  where name = "Tyche"
+  '''
+  )
+
+  cursor.execute('''
+  DELETE FROM Employee
+  where name ="Tyche"
+  ''')
+  
+
+
+con.commit()
+  
